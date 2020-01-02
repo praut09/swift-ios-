@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         readPropertyList()
-        // Do any additional setup after loading the view.
+        print("plistdemo")
     }
     func readPropertyList() {
         var propertyListFormat =  PropertyListSerialization.PropertyListFormat.xml //Format of the Property List.
